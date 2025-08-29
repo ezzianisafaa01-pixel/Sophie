@@ -18,8 +18,8 @@
   --color-primary-dark: #9A2BB0;
   --color-secondary-light: #1e293b;
   --color-secondary-dark: #020617;
-  --color-accent-light: #fb923c;
-  --color-accent-dark: #ea580c;
+  --color-accent-light: #fb50ff;
+  --color-accent-dark: #fb50ff;
   
   /* Surface Colors */
   --color-surface: #1a1a1e;
@@ -32,7 +32,7 @@
   /* Status Colors */
   --color-success: #22c55e;
   --color-warning: #fbbf24;
-  --color-error: #ef4444;
+  --color-error: #fb50ff;
   --color-info: #3b82f6;
   
   /* Typography */
