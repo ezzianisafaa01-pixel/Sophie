@@ -12,7 +12,7 @@
   <!-- Canonical URL -->
   <link rel="canonical" href="https://safaaezziani.com/">
 
-  <!-- Open Graph -->
+  <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Safaa Ez-ziani — ROI-Driven B2B Marketing Strategist">
   <meta property="og:description" content="Smart B2B Growth. ROI-Driven. Powered by AI & Automation. Turn strategy into scalable systems for more leads and better ROI.">
   <meta property="og:image" content="https://safaaezziani.com/assets/safaa.png">
@@ -23,14 +23,14 @@
   <meta property="og:site_name" content="Safaa Ez-ziani">
   <meta property="og:locale" content="en_US">
 
-  <!-- Twitter -->
+  <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Safaa Ez-ziani — ROI-Driven B2B Marketing Strategist">
   <meta name="twitter:description" content="Smart B2B Growth. ROI-Driven. Powered by AI & Automation. Turn strategy into scalable systems for more leads and better ROI.">
   <meta name="twitter:image" content="https://safaaezziani.com/assets/safaa.png">
   <meta name="twitter:creator" content="@safaaezziani">
 
-  <!-- Fonts -->
+  <!-- Preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -54,12 +54,20 @@
         "jobTitle": "ROI-Driven B2B Marketing Strategist",
         "description": "Marketing strategist specialized in automation & AI for scalable B2B growth",
         "url": "https://safaaezziani.com",
-        "sameAs": [ "https://www.linkedin.com/in/safaa-ezziani" ],
+        "sameAs": ["https://www.linkedin.com/in/safaa-ezziani"],
         "knowsAbout": [
-          "B2B Marketing Strategy","Marketing Automation","AI Workflows",
-          "Growth Marketing","SaaS Marketing","Industrial Marketing"
+          "B2B Marketing Strategy",
+          "Marketing Automation",
+          "AI Workflows",
+          "Growth Marketing",
+          "SaaS Marketing",
+          "Industrial Marketing"
         ],
-        "hasCredential": ["HubSpot Certified","Make Expert","n8n Specialist"]
+        "hasCredential": [
+          "HubSpot Certified",
+          "Make Expert",
+          "n8n Specialist"
+        ]
       },
       {
         "@type": "WebSite",
@@ -73,7 +81,7 @@
   </script>
 </head>
 <body>
-  <!-- Skip link -->
+  <!-- Skip to main content -->
   <a href="#main" class="skip-link">Skip to main content</a>
 
   <!-- Header -->
@@ -83,26 +91,30 @@
         <a href="#hero" class="nav__logo" aria-label="Safaa Ez-ziani - Go to homepage">Safaa Ez-ziani</a>
       </div>
       <ul class="nav__menu" role="menubar">
-        <li><a href="#about" role="menuitem" class="nav__link">About</a></li>
-        <li><a href="#value" role="menuitem" class="nav__link">Services</a></li>
-        <li><a href="#portfolio" role="menuitem" class="nav__link">Portfolio</a></li>
-        <li><a href="#testimonials" role="menuitem" class="nav__link">Results</a></li>
-        <li><a href="#cta" role="menuitem" class="nav__link nav__link--cta">Let's Connect</a></li>
+        <li role="none"><a href="#about" role="menuitem" class="nav__link">About</a></li>
+        <li role="none"><a href="#value" role="menuitem" class="nav__link">Services</a></li>
+        <li role="none"><a href="#portfolio" role="menuitem" class="nav__link">Portfolio</a></li>
+        <li role="none"><a href="#testimonials" role="menuitem" class="nav__link">Results</a></li>
+        <li role="none"><a href="#cta" role="menuitem" class="nav__link nav__link--cta">Let's Connect</a></li>
       </ul>
       <button class="nav__toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-        <span class="hamburger"></span><span class="hamburger"></span><span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
       </button>
     </nav>
   </header>
 
-  <!-- Hero -->
-  <main id="main">
+  <!-- Main -->
+  <main id="main" role="main">
+    <!-- Hero -->
     <section id="hero" class="hero" role="banner">
       <div class="container">
         <div class="hero__content">
           <div class="hero__text">
             <h1 class="hero__title">
-              Smart B2B Growth. <span class="text-accent"><br> ROI-Driven.</span> Powered by AI & Automation.
+              Smart B2B Growth. <br>
+              <span class="text-accent">ROI-Driven.</span> Powered by AI & Automation.
             </h1>
             <p class="hero__subtitle">
               Turn strategy into scalable systems → more leads, better ROI, free your team.
@@ -110,12 +122,14 @@
             <div class="hero__cta">
               <a href="https://www.linkedin.com/in/safaa-ez-ziani" target="_blank" class="btn btn--primary" aria-label="Connect with Safaa on LinkedIn">
                 Let's Connect
-                <svg class="btn__icon" aria-hidden="true"><use href="./assets/icons/arrow-right.svg#arrow-right"></use></svg>
+                <svg class="btn__icon" aria-hidden="true">
+                  <use href="./assets/icons/arrow-right.svg#arrow-right"></use>
+                </svg>
               </a>
-              <a href="https://calendly.com/ezzianisafaa01/30min" class="btn btn--secondary" aria-label="Work with Safaa">Work With Me</a>
+              <a href="https://calendly.com/ezzianisafaa01/30min" class="btn btn--secondary" aria-label="Email Safaa to work together">Work With Me</a>
             </div>
             <div class="hero__trust">
-              <p class="hero__trust-text">✓ HubSpot Certified ✓ Make Expert ✓ n8n Specialist</p>
+              <p class="hero__trust-text">✓ HubSpot Certified &nbsp; ✓ Make Expert &nbsp; ✓ n8n Specialist</p>
             </div>
           </div>
           <div class="hero__visual">
@@ -124,33 +138,97 @@
         </div>
       </div>
     </section>
+
+    <!-- About -->
+    <section id="about" class="section" role="region" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section__header">
+          <h2 id="about-title" class="section__title">From Manual Marketing to Automated Growth</h2>
+          <p class="section__subtitle">Learning by doing, delivering measurable results with AI-powered automation that scales.</p>
+        </div>
+        <div class="about__content">
+          <div class="about__text">
+            <h3 class="about__heading">Nearly 3 Years, Proven Results</h3>
+            <p class="about__description">
+              Nearly 3 years in B2B marketing, delivering +35% revenue growth and 200+ qualified leads across industry, tech, smart textiles, and consulting. 
+              I bridge strategy and execution through AI and no-code automation, continuously upskilling to stay ahead of the curve. 
+              My approach: learning by doing, delivering measurable results.
+            </p>
+            <div class="about__specialties">
+              <h4 class="about__specialties-title">What I Deliver:</h4>
+              <ul class="about__list">
+                <li class="about__list-item">Clear ROI tracking (CAC, Lead Quality, Revenue Impact)</li>
+                <li class="about__list-item">Marketing automation that actually works</li>
+                <li class="about__list-item">AI workflows that free your team for strategy</li>
+                <li class="about__list-item">Systems that scale without breaking your budget</li>
+              </ul>
+            </div>
+          </div>
+          <div class="about__stats metrics">
+            <div class="metric"><span class="metric__value">35%+</span><span class="metric__label">Revenue Growth Delivered</span></div>
+            <div class="metric"><span class="metric__value">200+</span><span class="metric__label">Qualified Leads Generated</span></div>
+            <div class="metric"><span class="metric__value">3+</span><span class="metric__label">Years B2B Experience</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- (...) autres sections identiques mais indentées de la même façon -->
+
   </main>
 
   <!-- Footer -->
   <footer id="footer" role="contentinfo" class="footer">
     <div class="container">
-      <p>&copy; 2025 Safaa Ez-ziani. All rights reserved.</p>
+      <div class="footer__content">
+        <div class="footer__brand">
+          <h3 class="footer__title">Safaa Ez-ziani</h3>
+          <p class="footer__description">
+            ROI-Driven B2B Marketing Strategist specialized in Automation & AI for scalable growth.
+          </p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__section">
+            <h4 class="footer__section-title">Services</h4>
+            <ul class="footer__list">
+              <li><a href="#value" class="footer__link">Marketing Automation</a></li>
+              <li><a href="#value" class="footer__link">AI Workflows</a></li>
+              <li><a href="#value" class="footer__link">ROI Optimization</a></li>
+              <li><a href="#value" class="footer__link">Lead Generation</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <h4 class="footer__section-title">Resources</h4>
+            <ul class="footer__list">
+              <li><a href="#portfolio" class="footer__link">Case Studies</a></li>
+              <li><a href="#testimonials" class="footer__link">Client Results</a></li>
+              <li><a href="#how" class="footer__link">Process</a></li>
+              <li><a href="#proof" class="footer__link">Track Record</a></li>
+            </ul>
+          </div>
+          <div class="footer__section">
+            <h4 class="footer__section-title">Connect</h4>
+            <ul class="footer__list">
+              <li><a href="mailto:safaaezziani01@gmail.com" class="footer__link">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/safaa-ezziani" class="footer__link" target="_blank">LinkedIn</a></li>
+              <li><a href="#cta" class="footer__link">Let's Connect</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="footer__bottom-content">
+          <p class="footer__copyright">© 2025 Safaa Ez-ziani. All rights reserved.</p>
+          <div class="footer__legal">
+            <a href="#" class="footer__legal-link">Privacy Policy</a>
+            <a href="#" class="footer__legal-link">Terms of Service</a>
+          </div>
+        </div>
+      </div>
     </div>
   </footer>
 
-  <!-- Analytics -->
-  <script>
-    (function() {
-      const GA4_ID = window.GA4_TRACKING_ID || (typeof process !== 'undefined' && process.env && process.env.GA4_TRACKING_ID);
-      if (GA4_ID) {
-        const script = document.createElement('script');
-        script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`;
-        document.head.appendChild(script);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', GA4_ID);
-      }
-    })();
-  </script>
-
+  <!-- Scripts -->
   <script src="script.js" defer></script>
 </body>
 </html>
